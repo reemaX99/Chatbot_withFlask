@@ -1,0 +1,128 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello , I'm SE chatbot Assitant! How can i help you?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "I'm fine , Thank you for asking"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure",
+       "Can i help you with something else?"]
+      },
+      {
+        "tag": "Upload",
+        "patterns": [
+          "How can i upload a video?",
+          "How can i upload a project ?"
+
+        ],
+        "responses": [
+          "You only can upload videos or projects after you sign in.",
+            "After you sign in, go to the blog page."
+        ]
+      },
+      {
+        "tag": "See",
+        "patterns": [
+         "How can I see the videos?",
+          "How can I see the projects?"
+        ],
+        "responses": [
+      "You only can see the video or projects if you were signed in.",
+      "After you sign in, you can see the projects or videos."
+
+        ]
+      },
+  {
+        "tag": "ReqCourse",
+        "patterns": [
+          "Does Requirement Engineering Course has prerequisites ? ",
+          "I Want To Study Requirement Engineering Next Semester",
+          "What is The Credit Hours Of Software Engineering?",
+       "In What Semester Should I Study Requirement Engineering Course ?" ],
+        "responses": [
+          "Students Take Requirement Engineering Course in Their First Semester in The Department, Its Prerequisite is Fundamental Of Software Engineering, Both have 3 Credit Hours"
+           ]
+      },
+      {
+        "tag": "DeleteCourse",
+        "patterns": [
+          "How Can I Delete a Course ?",
+          "I Want To Delete a Course" ],
+        "responses": [
+          "You Can Talk To Your Academic Advisor To Delete Courses Within a Specific Period In The Beginning Of The Semester "]
+      },
+      {
+        "tag": "AcademicAdvisor",
+        "patterns": [
+          "How To Reach My Academic Advisor ? ",
+          "Who Is My Academic Advisor ? ",
+          "Do I Have an Acadmic Advisor ? ",
+  "How To Find Information About My Academic Advisor ? "
+        ],
+        "responses": [
+          "Kindly Check Odus To Find Your Academic Advisor. \n Note: You Can Only Have an Academic Advisor If You're Already Majored In The Department"
+        ]
+      },
+      {
+        "tag": "SummerSemester",
+        "patterns": [
+          "Which Courses Will Be Studied In The Summer Semester ? ",
+          "Is Free Courses Will Be Studied In The Summer Semester ? ",
+          "Is Optional Courses Will Be Studied In The Summer Semester ? "
+        ],
+        "responses": [
+          "We Still Don't Have Enough Information Please Check Again Soon To Be Updated About The Summer Semester \n or Kindly Ask Your Academic Advisor For Quick Information"
+        ]
+      },
+  {
+        "tag": "OSCourse",
+        "patterns": [
+          "Does Operating System Course has prerequisites ? ",
+          "I Want To Study Operating System Next Semester",
+          "What is The Credit Hours Of Operating System ?",
+       "In What Semester Should I Study Operatint System Course ?" ],
+        "responses": [
+          "Students Take Operating System Course in Their 4th Semester in The Department, It Doesn't Have Prerequisites and It has 3 Credit Hours"
+   ]
+      },
+  {
+        "tag": "DeleteSemester",
+        "patterns": [
+          "How Can I Delete A Semester ? ",
+          "What Would Happen If I Deleted a Semester ? ",
+          "I Want To Delete This Semester ",
+       "What is The Difference Between Apologising For a Semester and Delaying a Semester ?" ],
+        "responses": [
+          "You Can Delete the Semetser If The Period is Still Available \n Ensure You're Okay With Being One Semester Late Of Getting Graduated",
+  "Apology a Semester:  Calculated within the academic period and the reward period",
+  "The last date for apology is two weeks before the final exams.",
+  "\nDelay Semester: It is not counted within the study period and the reward period. The application for it must be before the start of the study."
+       ]
+      }
+    ]
+  }
